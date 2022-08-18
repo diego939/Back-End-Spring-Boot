@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/tecnologia")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://almirondiegodavidportafolioap.web.app")
 public class TecnologiaController {
     @Autowired
     private IHabilidadService habServ;

@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/instituto")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://almirondiegodavidportafolioap.web.app")
 public class InstitutoController {
     @Autowired
     private IInstitutoService insServ;

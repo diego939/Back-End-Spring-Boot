@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/certificado")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://almirondiegodavidportafolioap.web.app")
 public class CertificadoController {
     @Autowired
     private ICertificadoService cerServ;
